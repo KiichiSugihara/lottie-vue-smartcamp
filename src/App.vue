@@ -19,7 +19,9 @@
       <!-- 花火のアニメーション -->
       <lottie :options="fireworksLottie" :height="300" :width="300" :animCreated="handleAnimation"/>
     </el-dialog>
+  <sample/>
   </div>
+
 </template>
 
 <script>
@@ -27,11 +29,13 @@ import Lottie from "@/components/Lottie.vue"
 import * as welcome from "@/assets/welcome.json"
 // 花火のアニメーション
 import * as fireworks from "@/assets/fireworks.json"
+import Sample from "@/components/Sample.vue"
 
 export default {
   name: 'app',
   components: {
-    Lottie
+    Lottie,
+    Sample
   },
   data () {
     return {

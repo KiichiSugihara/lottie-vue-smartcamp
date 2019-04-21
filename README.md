@@ -1,3 +1,8 @@
+こちらは、スマートキャンプの記事を見て実装したものです。
+リンクは、こちら
+https://tech.smartcamp.co.jp/entry/2019/04/18/184533
+
+
 # new-app
 
 ## Project setup
